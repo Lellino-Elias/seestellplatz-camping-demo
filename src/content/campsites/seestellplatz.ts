@@ -79,9 +79,10 @@ export const seestellplatz: CampsiteConfig = {
   // Keine belegbare Auszeichnung auf der Quelle → ehrlich leer (Band zeigt nur USP-Pills).
   awards: [],
 
-  // Eröffnung 2026 laut Quelle "ab 22. April"; Saisonende nicht ausdrücklich
-  // genannt → September ist der späteste in der Preisliste benannte Monat.
-  saison: { von: "April", bis: "September" },
+  // Belegte Saison-Monate aus der Preisliste (Quelle: "Saison 2023" → Low Season
+  // "Juni und September", High Season "Juli und August"). Juni = frühester,
+  // September = spätester benannter Monat; kein anderer Eröffnungsmonat belegt.
+  saison: { von: "Juni", bis: "September" },
 
   hero: {
     aerial: { src: `${IMG}/stellplatz-ueberblick.webp`, alt: "Überblick über den Stellplatz am Ossiacher See mit Wohnmobilen und Bergpanorama" },
@@ -133,7 +134,7 @@ export const seestellplatz: CampsiteConfig = {
     headingEmphasis: "Wohlfühlen",
     intro:
       "Obstgarten, Bergblick und der Gasthof Leo gleich nebenan – ein paar Eindrücke vom Stellplatz in Bodensdorf am Ossiacher See.",
-    tag: "April bis September",
+    tag: "Juni bis September",
     images: [
       { src: `${IMG}/stellplatz-wiese.webp`, alt: "Weitläufige Stellplatz-Wiese mit Obstbäumen und Bergblick" },
       { src: `${IMG}/stellplatz-obstgarten.webp`, alt: "Wohnmobil unter Obstbäumen auf dem Stellplatz" },
