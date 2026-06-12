@@ -166,7 +166,7 @@ export const seestellplatz: CampsiteConfig = {
     telHref: "tel:00436648703315",
     mail: "anfrage@seestellplatz.at",
     adresse: "Bahnhofstraße 10 · 9551 Bodensdorf am Ossiacher See · Kärnten",
-    coords: { lat: 46.6820989, lng: 13.9731192 },
+    coords: { lat: 46.682073, lng: 13.972981 },
   },
 
   languages: ["DE"],
