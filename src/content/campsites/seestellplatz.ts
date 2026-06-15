@@ -106,7 +106,7 @@ export const seestellplatz: CampsiteConfig = {
       {
         title: "Stellplatz mit Bergblick",
         text: "Stellplätze mit Blick auf die umliegenden Berge und die Gerlitzen – Natur in ihrer Schönheit erleben.",
-        image: { src: `${IMG}/stellplatz-ueberblick.webp`, alt: "Stellplatz mit Wohnmobilen und Blick auf die Berge" },
+        image: { src: `${IMG}/stellplatz-wiese.webp`, alt: "Weitläufige Stellplatz-Wiese im Obstgarten mit Blick auf die Berge rund um den Ossiacher See" },
       },
     ],
   },
@@ -136,7 +136,7 @@ export const seestellplatz: CampsiteConfig = {
       "Obstgarten, Bergblick und der Gasthof Leo gleich nebenan – ein paar Eindrücke vom Stellplatz in Bodensdorf am Ossiacher See.",
     tag: "Juni bis September",
     images: [
-      { src: `${IMG}/stellplatz-wiese.webp`, alt: "Weitläufige Stellplatz-Wiese mit Obstbäumen und Bergblick" },
+      { src: `${IMG}/stellplatz-ueberblick.webp`, alt: "Überblick über den Stellplatz am Ossiacher See mit Wohnmobilen und Bergpanorama" },
       { src: `${IMG}/stellplatz-obstgarten.webp`, alt: "Wohnmobil unter Obstbäumen auf dem Stellplatz" },
       { src: `${IMG}/gasthof-leo.webp`, alt: "Gasthof zum Leo neben dem Stellplatz" },
       { src: `${IMG}/gasthof-leo-terrasse.webp`, alt: "Terrasse des Gasthof Leo mit Sonnenschirmen" },
